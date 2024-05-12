@@ -11,7 +11,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
-//FIXME this needs to use a mock service
+//TODO this needs to use a mock service, something like mockito
 @SpringBootTest
 @AutoConfigureMockMvc
 public class FoodTruckControllerTest {
@@ -29,7 +29,7 @@ public class FoodTruckControllerTest {
 
 //	@Test
 //	void updateTruckList() throws Exception {
-//		// FIXME refactor so we can call this without it actually reaching out to SF
+//		// TODO This specifically can take advantage of the mock service to not load data from the actual external site
 //		this.mockMvc.perform(post("/trucks"))
 //				// .andDo(print())
 //				.andExpect(status().isOk());
