@@ -1,9 +1,9 @@
 # General Description
 The purpose of this application is to get the list of the San Francisco food trucks from their government's open data website to then use in various ways. Their website can be found at:  [https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data)
 
-Due to time constraints this is currently a simplistic implementation. There are thoughts in sections below on ways to further enhance this application.
+This application is a REST like API(no links in endpoints). Under the [To Run](#to-run) section below it describes how to start it up and how to see the API specification.
 
-For execution details see [To Run](#to-run) below.
+Due to time constraints this is currently a simplistic implementation. There are thoughts in sections below on ways to further enhance this application.
 
 # Table Of Contents
 1. [Assumptions](#assumptions)
