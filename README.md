@@ -17,7 +17,7 @@ For execution details see [To Run](#to-run) below.
 # Assumptions
 This section outlines some of the assumptions that were made based off of looking at the data. For a production release these items would need to be investigated to determine if the assumptions are correct.
 
-Although the original file was CSV, I noticed that it is 3 years old. When I looked at the SF website, I saw it supported JSON files. With json being simpler to parse, I went that way. Normally I would expect this to be a quick discussion with the stakeholders to determine if this was okay. As there was a forum for that discussion in this instance, I made a decision and went with it. 
+Although the original file was CSV, I noticed that it is 3 years old. When I looked at the SF website, I saw it supported JSON files. With JSON being simpler to parse, I went that way. Normally I would expect this to be a quick discussion with the stakeholders to determine if this was okay. As there was a forum for that discussion in this instance, I made a decision and went with it. 
 
 * Applicants are unique to businesses. So all lines with the same applicant are the same business
 * A business will only have one facility type, no matter how many lines they have
@@ -25,6 +25,8 @@ Although the original file was CSV, I noticed that it is 3 years old. When I loo
 
 # To Run
 Ensure you have a JVM for java 17 installed. Then change to the directory containing the jar file and execute: `java -jar <jar file>`. This will start up the server on port 8081. If you need to change the port you will neeed to recompile after updating `src/main/resources/application.yml`
+
+NOTE: for the purposes of making it simple to demo, a jar file can be found in the root project directory with the name: `sf-food-trucks.jar`
 
 This starts without any data. Load the data by executing a `POST /trucks`.
 
