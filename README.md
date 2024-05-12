@@ -26,7 +26,7 @@ Although the original file was CSV, I noticed that it is 3 years old. When I loo
 # To Run
 Ensure you have a JVM for java 17 installed. Then change to the directory containing the jar file and execute: `java -jar <jar file>`. This will start up the server on port 8081. If you need to change the port you will neeed to recompile after updating `src/main/resources/application.yml`
 
-NOTE: for the purposes of making it simple to demo, a jar file can be found in the root project directory with the name: `sf-food-trucks.jar`
+NOTE: The jar file can be found in github attached to the release v0.1.0.
 
 This starts without any data. Load the data by executing a `POST /trucks`.
 
